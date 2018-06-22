@@ -13,7 +13,7 @@ class S05_TESTINGGROUNDS_API UPatrolRoute : public UActorComponent
 	GENERATED_BODY()
 
 protected:
-	UPROPERTY(EditInstanceOnly, Category = "Patrol Route")
+	UPROPERTY(EditAnywhere, Category = "Patrol Route")
 	TArray<AActor*> PatrolPoints;
 
 public:
